@@ -7,6 +7,8 @@ git push origin master 	-- push 전에 pull이 있다.
 
 
 https://www.youtube.com/watch?v=tC8Xj_Bf8Fw&t=15s
+	이곳에 있는 강의자료를 정리한 것.
+
 
 gitbash  설치
 https://gitforwindows.org/
