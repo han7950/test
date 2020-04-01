@@ -26,3 +26,5 @@ git status , git all . , git commit -m "massage" , git push origin +master
 
 777
 
+{{  git config --global user.email "han7950@gmail.com"
+        git config --global user.name "han7950"  }}}
