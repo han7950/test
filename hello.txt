@@ -1,0 +1,28 @@
+
+
+https://www.youtube.com/watch?v=tC8Xj_Bf8Fw&t=15s
+
+
+$ git remote add origin ?https://github.com/han7950/test.git
+
+04. Push 전에 Pull이 있다.
+
+git pull origin master   --- 지어 해놓은 Repository에서 끌어옵니다.
+
+git status  --- 현재 git 상태를 check
+
+git add .변경된 파일들을 모두 Tracking
+
+git commit -m "message" -- 인식 할 수 있는 commit을 달아줍니다.
+
+git push origin +master  --  실제로 Git에 POUSH를 요청
+
+
+정리 
+Pull 과정에서는 : git pull origin master
+
+Push 과정에서는 : 
+git status , git all . , git commit -m "massage" , git push origin +master
+
+777
+
