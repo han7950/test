@@ -1,3 +1,10 @@
+git status   		-- 씽크
+git add .		-- 씽크후 변경 사항 트렉킹
+git commit -m "xxx"   	-- ~바뀌었는지 설명 
+git push origin master 	-- push 전에 pull이 있다.
+
+
+
 
 https://www.youtube.com/watch?v=tC8Xj_Bf8Fw&t=15s
 
@@ -10,7 +17,9 @@ https://github.com/
 
 login 후 new repository
 
+
 내 컴에 로컬 폴더 생성  우측버튼  --git bash here
+
 git init 
 git romete add origin https://github.com/han7950/test 
 git pull origin master  -- push 전엔 pull 이 있다.
