@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 push
 git status   		-- ¾ÅÅ©
 git add .		-- ¾ÅÅ©ÈÄ º¯°æ »çÇ× Æ®·ºÅ·
@@ -19,37 +20,43 @@ git pull origin master  -- ÀÌ·¸°Ô ¾ÈÇÏ¸é https:// ¿¡¼­ editing ÇÑ °ÍÀº µ¤¾î ¾²±â
 
  
 
+=======
+git status   		-- ì”½í¬
+git add .		-- ì”½í¬í›„ ë³€ê²½ ì‚¬í•­ íŠ¸ë ‰í‚¹
+git commit -m "xxx"   	-- ~ë°”ë€Œì—ˆëŠ”ì§€ ì„¤ëª… 
+git push origin master 	-- push ì „ì— pullì´ ìˆë‹¤.
+>>>>>>> 078c9273334f6fecdec51b868412ee46ba97d2a8
 
 
 
 
 https://www.youtube.com/watch?v=tC8Xj_Bf8Fw&t=15s
-	ÀÌ°÷¿¡ ÀÖ´Â °­ÀÇÀÚ·á¸¦ Á¤¸®ÇÑ °Í.
+	ì´ê³³ì— ìˆëŠ” ê°•ì˜ìë£Œë¥¼ ì •ë¦¬í•œ ê²ƒ.
 
 
-gitbash  ¼³Ä¡
+gitbash  ì„¤ì¹˜
 https://gitforwindows.org/
 
 
-Repository »ı¼º
+Repository ìƒì„±
 https://github.com/
 
-login ÈÄ new repository
+login í›„ new repository
 
 
-³» ÄÄ¿¡ ·ÎÄÃ Æú´õ »ı¼º  ¿ìÃø¹öÆ°  --git bash here
+ë‚´ ì»´ì— ë¡œì»¬ í´ë” ìƒì„±  ìš°ì¸¡ë²„íŠ¼  --git bash here
 
 git init 
 git romete add origin https://github.com/han7950/test 
-git pull origin master  -- push Àü¿£ pull ÀÌ ÀÖ´Ù.
-	-- ÀÏ´Ü ²ø¾î¿Í¼­ ½ÌÅ© ÇÏ°í ±×°É Á¤¸® ÇØ¼­ 		push?? ÇØ¾ß ¾È ³¯·Á ¸Ô´Â´Ù.??
-git status -- ÇöÁ¦ local and git°úÀÇ »óÅÂ¸¦(¾ÅÅ©) Check!
+git pull origin master  -- push ì „ì—” pull ì´ ìˆë‹¤.
+	-- ì¼ë‹¨ ëŒì–´ì™€ì„œ ì‹±í¬ í•˜ê³  ê·¸ê±¸ ì •ë¦¬ í•´ì„œ 		push?? í•´ì•¼ ì•ˆ ë‚ ë ¤ ë¨¹ëŠ”ë‹¤.??
+git status -- í˜„ì œ local and gitê³¼ì˜ ìƒíƒœë¥¼(ì”½í¬) Check!
 
-git add .  -- º¯°æ »çÇ× Æ®·ºÅ· 
+git add .  -- ë³€ê²½ ì‚¬í•­ íŠ¸ë ‰í‚¹ 
 
-git commit -m "Hello Github"  -- ³ª ¶Ç´Â ³²ÀÌ ¾Ë ¼ö ÀÖ°Ô ³»¿ëÀ» ´Ş¾ÆÁØ´Ù. 
+git commit -m "Hello Github"  -- ë‚˜ ë˜ëŠ” ë‚¨ì´ ì•Œ ìˆ˜ ìˆê²Œ ë‚´ìš©ì„ ë‹¬ì•„ì¤€ë‹¤. 
 
-git push origin +master  -- ½ÇÁ¦·Î git ¿¡ push!
+git push origin +master  -- ì‹¤ì œë¡œ git ì— push!
 
 pull 
     
@@ -59,7 +66,7 @@ pull
 
 
 
-
+https:~~ ì—ì„œ ì¶”ê°€ê°€ ê°€ëŠ¥ í•˜ë‹¤. 
 
 
 *
@@ -69,17 +76,17 @@ https://www.youtube.com/watch?v=tC8Xj_Bf8Fw&t=15s
 
 $ git remote add origin ?https://github.com/han7950/test.git
 
-04. Push Àü¿¡ PullÀÌ ÀÖ´Ù.
+04. Push ì „ì— Pullì´ ìˆë‹¤.
 
-git pull origin master   --- Áö¾î ÇØ³õÀº Repository¿¡¼­ ²ø¾î¿É´Ï´Ù.
+git pull origin master   --- ì§€ì–´ í•´ë†“ì€ Repositoryì—ì„œ ëŒì–´ì˜µë‹ˆë‹¤.
 
-git status  --- ÇöÀç git »óÅÂ¸¦ check
+git status  --- í˜„ì¬ git ìƒíƒœë¥¼ check
 
-git add .º¯°æµÈ ÆÄÀÏµéÀ» ¸ğµÎ Tracking
+git add .ë³€ê²½ëœ íŒŒì¼ë“¤ì„ ëª¨ë‘ Tracking
 
-git commit -m "message" -- ÀÎ½Ä ÇÒ ¼ö ÀÖ´Â commitÀ» ´Ş¾ÆÁİ´Ï´Ù.
+git commit -m "message" -- ì¸ì‹ í•  ìˆ˜ ìˆëŠ” commitì„ ë‹¬ì•„ì¤ë‹ˆë‹¤.
 
-git push origin +master  --  ½ÇÁ¦·Î Git¿¡ POUSH¸¦ ¿äÃ»
+git push origin +master  --  ì‹¤ì œë¡œ Gitì— POUSHë¥¼ ìš”ì²­
 
 
 
