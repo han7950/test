@@ -1,4 +1,36 @@
 ﻿
+*
+
+https://www.youtube.com/watch?v=tC8Xj_Bf8Fw&t=15s
+
+gitbash  설치
+https://gitforwindows.org/
+
+
+Repository 생성
+https://github.com/
+
+login 후 new repository
+
+내 컴에 로컬 폴더 생성  우측버튼  --git bash here
+git init 
+git romete add origin https://github.com/han7950/test 
+git pull origin master  -- push 전엔 pull 이 있다.
+	-- 일단 끌어와서 싱크 하고 그걸 정리 해서 		push?? 해야 안 날려 먹는다.??
+git status -- 현제 local and git과의 상태를(씽크) Check!
+
+git add .  -- 변경 사항 트렉킹 
+
+git commit -m "Hello Github"  -- 나 또는 남이 알 수 있게 내용을 달아준다. 
+
+git push origin +master  -- 실제로 git 에 push!
+
+pull 
+
+
+
+
+***
 
 
 	# message
