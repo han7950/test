@@ -1,7 +1,24 @@
+push
 git status   		-- 씽크
 git add .		-- 씽크후 변경 사항 트렉킹
 git commit -m "xxx"   	-- ~바뀌었는지 설명 
-git push origin master 	-- push 전에 pull이 있다.
+git push origin master 	-- push 전에 pull이 있다를 기억.-- 여기서 pull 없이 push 해도 되는지 확인.
+
+
+
+
+pull
+local에 받아올 폴더 만들고, Git Bash Here
+
+git init
+git remote add origin https://github.com/bismuthfoundation/Bismuth  - 주소줄만...ㅎ
+
+git pull origin master  -- 이렇게 안하면 https:// 에서 editing 한 것은 덮어 쓰기가 되어져 버린다. 
+   그래서 push 전엔 pull이 있다가 중요하다.
+
+
+ 
+
 
 
 
